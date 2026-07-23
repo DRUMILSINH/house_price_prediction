@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.git/
+.gitignore
+tests/
+predictions.csv
+*.dvc
+.dvc/
+.dvcignore
+readme.md
+.agents/
+
+# training-only artifacts and scripts not needed by the serving image
+house_model.joblib
+train.py
+explore.py
+convert_to_onnx.py
+requirements-train.txt

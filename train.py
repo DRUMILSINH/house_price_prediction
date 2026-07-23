@@ -28,7 +28,8 @@ y_pred = model.predict(X_test)
 mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
-print(f"average error: ${mae * 100000:,.0f}")
+print(f"average error (MAE): ${mae * 100000:,.0f}")
+print(f"R^2 score: {r2:.4f}")
 
 joblib.dump(model, "house_model.joblib")
 joblib.dump(list(X.columns), "house_features.joblib")

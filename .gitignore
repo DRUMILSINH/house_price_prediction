@@ -15,3 +15,9 @@ house_features.joblib
 
 .DS_Store
 Thumbs.db
+
+logs/
+house_model.onnx
+
+predictions.csv
+.pytest_cache/
