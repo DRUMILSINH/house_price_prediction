@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.env
+.env.*
+.python-version
+
+.agents/
+
+house_model.joblib
+house_features.joblib
+
+.DS_Store
+Thumbs.db
