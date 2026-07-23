@@ -1,0 +1,5 @@
+outs:
+- md5: bff9a76b289438e19a7f7409d384ad77
+  size: 144748097
+  hash: md5
+  path: house_model.joblib
